@@ -13,9 +13,12 @@ public class ClassTeam { // команда участвующая в игре
 
 
 
+    public String getName(){ //геттер ссылки на изображение
+        return nameTeam;
+    }
 
 public String getPathFlagTeam(){ //геттер ссылки на изображение
-return "@drawable/flags/"+pathFlagTeam;
+return "@drawable/"+pathFlagTeam;
 }
 
     private String pathFlagTeam; // ссылка на изображение флага

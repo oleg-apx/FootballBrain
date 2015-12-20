@@ -17,7 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".select_team"></activity>
+        <activity android:name=".select_team"
+            android:screenOrientation="portrait">
+
+
+        </activity>
     </application>
 
 </manifest>
