@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FootballBrain</string>
+    <string name="selectTeam">Выбор команды</string>
+    <string name="buttonStart">Старт</string>
+    <string name="addEnemyTeam">Выбор команды соперника</string>
+    <string name="Exit">Выход</string>
+    <string name="stringExit">Выход</string>
+    <string name="startScreenbutExit">Выход</string>
 </resources>

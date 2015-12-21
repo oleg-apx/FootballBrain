@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Старт"
+        android:text="@string/buttonStart"
         android:id="@+id/startButton"
         android:layout_marginTop="79dp"
         android:layout_alignParentTop="true"
@@ -26,7 +26,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Выбор команды"
+        android:text="@string/selectTeam"
         android:id="@+id/addTeam"
         android:layout_marginTop="73dp"
         android:textColor="@color/startScreenText"
@@ -40,7 +40,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Выбор команды соперника"
+        android:text="@string/addEnemyTeam"
         android:id="@+id/addEnemyTeam"
         android:layout_marginTop="120dp"
         android:textColor="@color/startScreenText"
@@ -51,17 +51,4 @@
         android:textStyle="bold"
         android:background="#ffffff"
         android:clickable="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Выход"
-        android:id="@+id/exitButton"
-        android:layout_marginTop="29dp"
-        android:textColor="@color/startScreenText"
-        android:textSize="10pt"
-        android:textIsSelectable="false"
-        android:textStyle="bold"
-        android:layout_below="@+id/addEnemyTeam"
-        android:layout_centerHorizontal="true"
-        android:clickable="true" />
 </RelativeLayout>
